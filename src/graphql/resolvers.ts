@@ -42,6 +42,8 @@ export const resolvers = {
 
     user.name = args?.name;
     user.email = args?.email;
+
+    user.age = args?.age;
     return user;
   },
 };
